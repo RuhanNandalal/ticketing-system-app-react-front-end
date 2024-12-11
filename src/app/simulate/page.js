@@ -51,7 +51,7 @@ const Simulate = () => {
             id="vendorCount"
             value={vendorCount}
             onChange={(e) => setVendorCount(e.target.value)}
-            className="border border-gray-300 p-2 rounded"
+            className="border border-gray-300 p-2 rounded text-black"
             placeholder="Enter number of vendors"
           />
         </div>
@@ -64,7 +64,7 @@ const Simulate = () => {
             id="consumerCount"
             value={consumerCount}
             onChange={(e) => setConsumerCount(e.target.value)}
-            className="border border-gray-300 p-2 rounded"
+            className="border border-gray-300 p-2 rounded text-black"
             placeholder="Enter number of consumers"
           />
         </div>
